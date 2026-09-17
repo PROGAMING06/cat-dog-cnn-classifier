@@ -6,7 +6,7 @@ The trained model is integrated into a **Streamlit web application**, allowing u
 
 ## 🚀 Live Demo
 
-👉 **[Try the Cat-Dog CNN Classifier](https://your-streamlit-demo-link.streamlit.app/)**
+👉 https://cat-dog-cnn-classifier-6ywiaxbr6csxervtgtxdtg.streamlit.app/
 
 > **Note:** Replace the link above with your actual Streamlit deployment link after deploying the application.
 
