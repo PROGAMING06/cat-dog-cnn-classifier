@@ -25,44 +25,6 @@ The CNN consists of:
 
 Dropout with a probability of `0.5` was added to help reduce overfitting.
 
-## Model Architecture
-
-```text
-Input Image (3 × 64 × 64)
-        ↓
-Convolutional Layer (3 → 16)
-        ↓
-ReLU
-        ↓
-Max Pooling
-        ↓
-Convolutional Layer (16 → 32)
-        ↓
-ReLU
-        ↓
-Max Pooling
-        ↓
-Flatten
-        ↓
-Fully Connected Layer (8192 → 64)
-        ↓
-ReLU
-        ↓
-Dropout (0.5)
-        ↓
-Fully Connected Layer (64 → 2)
-        ↓
-Cat / Dog
-```
-
-## Data Preprocessing
-
-Images are resized to:
-
-```text
-64 × 64 pixels
-```
-
 Training images use data augmentation:
 
 * Random horizontal flip
@@ -116,26 +78,13 @@ The Streamlit application allows users to:
 4. Display whether the image is predicted to be a Cat or Dog.
 5. Display the model's confidence percentage.
 
-## Project Structure
-
-```text
-cat-dog-cnn-classifier/
-│
-├── app.py
-├── model.py
-├── model.pkl
-├── cnn(1).ipynb
-├── app.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/cat-dog-cnn-classifier.git
+git clone https://github.com/PROGAMING06/cat-dog-cnn-classifier.git
 ```
 
 Move into the project directory:
